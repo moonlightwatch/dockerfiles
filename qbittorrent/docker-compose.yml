@@ -1,0 +1,11 @@
+version: "3"
+services:
+  qbittorrent:
+    build: .
+    command: qbittorrent-nox --webui-port=18080
+    ports:
+      - 18080:18080 
+      - 8999:8999 
+      - 8999:8999/udp
+    volumes:
+      - ~/Downloads:/root/Download
