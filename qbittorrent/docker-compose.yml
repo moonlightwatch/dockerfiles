@@ -8,4 +8,4 @@ services:
       - 8999:8999 
       - 8999:8999/udp
     volumes:
-      - ~/Downloads:/root/Download
+      - ~/Downloads:/root/Downloads
