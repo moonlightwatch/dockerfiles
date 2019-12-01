@@ -15,4 +15,4 @@ services:
     image: adminer:4.7
     restart: always
     ports:
-      - 19080:19080
+      - 19080:8080
