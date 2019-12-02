@@ -1,1 +1,1 @@
-docker run --restart=always -d -p 20000:80 -v /home/xxx/data:/var/www/html nextcloud:15.0-fpm
+docker run --restart=always -d -p 20000:80 -v /home/xxx/data:/var/www/html nextcloud:15.0
